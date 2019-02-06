@@ -46,8 +46,8 @@ git config --global alias.ls 'ls-files'
 
 ## Remote SSH Access
 
-Q. How can I specify the SSH key to use to authenticate in the Git Server?/
-A. You need to following setup in the ~/.ssh/config. Make sure to set the correct private key path and remote user.\
+Q. How can I specify the SSH key to use to authenticate in the Git Server?\
+A. You need the following setup in the ~/.ssh/config. Make sure to set the correct private key path and remote user.\
 The corresponding public key needs to be set in the Git Server (remote user) in the ~/.ssh/authorized_keys or in https://github.com/settings/keys for GitHub.
 
 ```
